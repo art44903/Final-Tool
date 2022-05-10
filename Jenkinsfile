@@ -79,7 +79,7 @@ pipeline {
                         remote.password = PASSWORD
                         remote.allowAnyHosts = true
                         
-                        sshCommand remote: remote, command: "git clone -b main https://github.com/Flukena/project-sw-dev-and-env.git"
+                        sshCommand remote: remote, command: "git clone -b main https://github.com/art44903/Final-Tool"
                         sshCommand remote: remote, command: "docker-compose -f project-sw-dev-and-env/docker-compose-deploy-frontend.yml down"
                         sshCommand remote: remote, command: "docker-compose -f project-sw-dev-and-env/docker-compose.yml build --no-cache app"
                         sshCommand remote: remote, command: "docker-compose -f project-sw-dev-and-env/docker-compose-deploy-frontend.yml up -d"
