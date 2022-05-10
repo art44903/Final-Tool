@@ -14,6 +14,8 @@ mongoose.connection.on('error', err => {
 app.use(express.json())
 const productRouter = require('./controllers/productController')
 app.use(productRouter)
+const userRouter = require('./controllers/userController')
+app.use(userRouter)
 // app.get('/products', async (req, res) => {
 //   const products = await Product.find({})
 //   res.json(products)
