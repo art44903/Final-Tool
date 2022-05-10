@@ -14,10 +14,9 @@ http://localhost:3000/user
 
 # วิธีติดตั้งใช้งาน Frontend
 ### 1. ขั้นตอนแรก Dowload Dependencies
-```
+
 npm install 
-```
+
 ### 2. เริ่มต้นการแสดงเว็บไซต์
-```
+
 npm run start
-```
