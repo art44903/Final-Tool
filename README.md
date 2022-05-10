@@ -12,4 +12,12 @@ npm run start
 ## 1. เรียกดูข้อมูลผู้ใช้
 http://localhost:3000/user
 
-### ไม่ต้องส่งข้อมูล จะรีเทรนออกมากเป็น Array
+# วิธีติดตั้งใช้งาน Frontend
+### 1. ขั้นตอนแรก Dowload Dependencies
+```
+npm install 
+```
+### 2. เริ่มต้นการแสดงเว็บไซต์
+```
+npm run start
+```
